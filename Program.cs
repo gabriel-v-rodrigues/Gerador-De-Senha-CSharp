@@ -9,9 +9,10 @@
 
             string password = GeneratePassword(passwordLenght);
             Console.Clear();
-            Console.WriteLine("Senha gerada: ");
+
             Console.WriteLine(password);
             Console.ReadLine();
+
             Environment.Exit(0);
             
         }
